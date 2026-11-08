@@ -1,0 +1,24 @@
+# Frontend
+streamlit>=1.30.0
+
+# LangChain and RAG components
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Vector Database
+chromadb>=0.4.22
+
+# Document loaders and parsing
+pypdf>=3.17.0
+python-docx>=1.0.0
+
+# HTTP and utilities
+requests>=2.31.0
+pydantic>=2.0.0
+
+# Optional document parsing (unstructured)
+# Note: On Windows, pypdf and python-docx are used as primary zero-dependency parsers.
+# If unstructured is desired:
+# unstructured>=0.12.0

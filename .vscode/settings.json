@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "D:\\miniconda\\envs\\rag\\python.exe",
+    "python.analysis.extraPaths": [
+        "D:\\miniconda\\envs\\rag\\Lib\\site-packages",
+        "h:\\rag-assistant"
+    ],
+    "python.autoComplete.extraPaths": [
+        "D:\\miniconda\\envs\\rag\\Lib\\site-packages",
+        "h:\\rag-assistant"
+    ]
+}
