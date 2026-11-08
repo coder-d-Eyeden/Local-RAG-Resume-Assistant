@@ -161,7 +161,7 @@ def main():
         [
             "📄 Upload & Index Resume",
             "💬 Ask Q&A",
-            "✨ Get Critique",
+            "🎯 ATS Checker & Critique",
         ]
     )
 

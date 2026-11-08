@@ -183,16 +183,17 @@ flowchart LR
 2. Select any **Suggested Question** pill (e.g. *"What are the candidate's core technical skills?"*) or type your custom prompt in the chat input.
 3. The LLM retrieves the top 5 most relevant resume chunks and streams a factual answer strictly grounded in the resume.
 
-### Step 3: Structured Critique
-1. Go to the **✨ Get Critique** tab.
-2. Click **✨ Generate Critique**.
-3. The LLM acts as an executive career consultant, outputting:
-   - **Overall Assessment & Tone Rating** (e.g., 🏆 *Excellent*, ⭐ *Strong*).
-   - **Market Confidence Level**.
-   - **Summary of Strengths** and **Standout Highlights**.
-   - **Constructive Areas for Enhancement** (smartly suppressed if the profile is already top-tier).
-   - **Suggested Career Pathway**.
-4. Click **📥 Download Critique Report (.md)** to save the evaluation locally.
+### Step 3: ATS Checker & Optimization Engine
+1. Go to the **🎯 ATS Checker & Critique** tab.
+2. Click **⚡ Run ATS Audit & Optimization**.
+3. The LLM acts as an executive technical recruiter and certified ATS specialist, providing:
+   - **ATS Compatibility Score (0–100)** with dynamic tier rating (Tier 1 FAANG-ready, Tier 2 Competitive, Tier 3 High Risk).
+   - **4 Component Sub-Scores**: Format & Parseability, Quantifiable Impact, Action Verb Power, and Keyword Match.
+   - **Keyword Optimizer**: Detected hard skills, missing high-priority ATS keywords, and recommended power verbs.
+   - **Bullet Point Rewriter**: Before vs. After rewrites using Google's XYZ formula (*Accomplished [X], as measured by [Y], by doing [Z]*).
+   - **Section-by-Section Audit**: Specific status and feedback across Summary, Experience, Skills, and Education.
+   - **Top 1% Blueprint**: ATS formatting golden rules and structural best practices.
+4. Click **📥 Download Full ATS Audit Report (.md)** to export the complete analysis.
 
 ---
 
